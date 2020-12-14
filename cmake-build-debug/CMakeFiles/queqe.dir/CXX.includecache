@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/queqe/deque.h
+memory
+-
+nodes.h
+E:/queqe/nodes.h
+stack.h
+E:/queqe/stack.h
+
+E:/queqe/main.cpp
+iostream
+-
+memory
+-
+queqe.h
+E:/queqe/queqe.h
+
+E:/queqe/nodes.h
+memory
+-
+
+E:/queqe/queqe.h
+deque.h
+E:/queqe/deque.h
+queue
+-
+
+E:/queqe/stack.h
+memory
+-
+nodes.h
+E:/queqe/nodes.h
+
